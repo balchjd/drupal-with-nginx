@@ -124,7 +124,7 @@ version.
  1. I'm **not** using [Boost](http://drupal.org/project/boost):   
    
   * On **drupal 7** use the `drupal.conf` config in your vhost
-    (`server` block): `include apps/drupals/drupal.conf;`.
+    (`server` block): `include apps/drupal/drupal.conf;`.
     
   * On **drupal 7** having to serve URIs that need to be **escaped**,
     e.g., that have `+` and/or `?` then use the `drupal_escaped.conf`
@@ -132,7 +132,7 @@ version.
     `include apps/drupal/drupal_escaped.conf`.
        
   * On **drupal 6** use the `drupal6.conf` config in your vhost
-    (`server` block): `include apps/drupals/drupal6.conf;`.
+    (`server` block): `include apps/drupal/drupal6.conf;`.
     
   * On **drupal 6** if having to serve URIs that need to be
     **escaped**, e.g., that have `+` and/or `?` then use the
